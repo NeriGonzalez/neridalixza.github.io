@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Kumar+One+Outline);
+@import url(https://fonts.googleapis.com/css?family=Kumar+One);
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+
+body {
+    background-color: #acd5d5;
+    margin-top: 130px;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Kumar One Outline', Garamond, serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 2.5em;
+    line-height: 1.4em;
+    margin-right: 400px;
+    margin-left: 240px;
+    margin-bottom: 0px;
+
+}
+
+h3 {
+    color: #ffffff;
+    font-family: 'Kumar One', Garamond, serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 2.5em;
+    line-height: 1.4em;
+    margin-right: 400px;
+    margin-left: 240px;
+    margin-top: 0px;
+
+}
+
+h2, p {
+    color: #ffffff;
+    font-family: 'Abel', arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    margin-left: 180px;
+    margin-top: 0px;
+    float: left;
+
+}
+
+h4 {
+	color: #ffffff;
+    font-family: 'Abel', arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-left: 240px;
+    margin-top: 40px;
+    margin-right: 400px;
+
+}
+
+#list {
+	color: #ffffff;
+    font-family: 'Abel', arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-left: 240px;
+    margin-right: 200px;
+    margin-bottom: 60px;
+}
+
+.button {
+	background-color: #8d9ac6;
+	border: none;
+	width: 150px;
+	height: 35px;
+	display: inline-block;
+	color: #acd5d5;
+    font-family: 'Abel', arial, sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 240px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+
+
+/*.thumbscontainer {
+	width: 500px;
+	border: none;
+	display: inline-block;
+	margin-left: 20px;
+}*/
+
+.thumbs {
+	background: #ffffff;
+	width: 220px;
+	height: 220px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+
+#nav {
+	font-family: 'Abel', arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+	position: fixed;
+  	right: 0;
+  	top: 50%;
+  	width: 13em;
+  	margin-top: -15.5em;
+}
+
+
+ /* unvisited link */
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+/* mouse over link */
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+
+}
+
+/* selected link */
+a:active {
+    color: #222222;
+    text-decoration: none;
+}
+
+
+#top, #bottom, #left, #right {
+	background-color: #d8f0f0;
+/*background-image: url("images/footer_lodyas.png");
+    background-repeat: repeat-y;*/
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 20px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 20px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
