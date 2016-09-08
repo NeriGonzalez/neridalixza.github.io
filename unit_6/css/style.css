@@ -1,0 +1,220 @@
+@import url(https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400i);
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+
+body {
+    background-color: #f9f9f0;
+    background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/tex2res4.png);
+}
+
+.wrapper {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+	margin: 20px;
+    position: relative;
+	z-index: 100;
+}
+
+nav {
+    font-family: 'Abel', arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 13em;
+    margin-top: -15.5em;
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+ /* unvisited link */
+a:link {
+    color: #222222;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #222222;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #222222;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #222222;
+    text-decoration: none;
+}
+
+
+header{
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+h1 {
+    color: #222222;
+    font-size: 2.5em;
+    line-height: 1.1em;
+    margin-right: 400px;
+    margin-left: 240px;
+}
+
+#headeroutline {
+    font-family: 'Sorts Mill Goudy 400i', Garamond, serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 2.8em;
+    line-height: 1em;
+    margin-top: 130px;
+}
+
+#header {
+    font-family: 'Sorts Mill Goudy 400', Garamond, serif;
+    font-weight: normal;
+    margin-top: -22px;
+}
+
+#portfolio {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.thumbs {
+    background: #ffffff;
+    width: 220px;
+    height: 220px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+h2 {
+    color: #bcbcae;
+    font-family: 'Abel', arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+
+p {
+    color: #222222;
+    font-family: 'Abel', arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+ul {
+    color: #222222;
+    font-family: 'Abel', arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-bottom: 60px;
+    list-style: square;
+}
+
+#portfolio > h2 {
+    margin-left: 130px;
+    margin-top: 0px;
+    float: left;
+}
+
+#bio {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#bio > p {
+    margin-left: 240px;
+    margin-top: 40px;
+    margin-right: 400px;
+}
+
+#bio > ul {
+    margin-left: 240px;
+    margin-right: 200px;
+    margin-bottom: 60px;
+}
+
+#bio > h2 {
+    margin-left: 130px;
+    margin-top: 0px;
+    float: left;
+}
+
+#resume {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#resume > h2 {
+    margin-left: 130px;
+    margin-top: 0px;
+
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 65%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 25%;
+}
+
+.button {
+    background-color: #eeeee5;
+    border: solid, 1px;
+    border-color: #222222;
+    width: 150px;
+    height: 35px;
+    display: inline-block;
+    color: #eeeee5;
+    font-family: 'Abel', arial, sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 240px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
