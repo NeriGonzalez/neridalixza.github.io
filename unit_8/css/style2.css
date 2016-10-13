@@ -1,0 +1,315 @@
+@import url(https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400i);
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+
+body {
+    background-color: #ffffff;
+    background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/tex2res4.png);
+}
+
+.wrapper {
+    background-color: #ffffff;
+    border: 1px black solid;
+    padding: 20px;
+	margin: 20px;
+    position: relative;
+	z-index: 100;
+}
+
+.nav {
+    font-family: 'Abel', arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    width: 97%;
+    padding: 1em;
+    text-align: right;
+}
+
+
+ /* unvisited link */
+a:link {
+    color: #222222;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #222222;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #222222;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #222222;
+    text-decoration: none;
+}
+
+.nav a {
+    padding: .5em;
+}
+
+header{
+    width: 50%;
+    margin-bottom: 2em;
+    display: inline-block;
+    padding: 0 0 1em 1em;
+
+}
+
+.leftrail {
+    width: 15%;
+    height: 5em;
+    float: left;
+}
+
+
+h1 {
+    color: #222222;
+    font-size: 2.5em;
+}
+
+#headeroutline {
+    font-family: 'Sorts Mill Goudy 400i', Garamond, serif;
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: -.7em;
+}
+
+#header {
+    font-family: 'Sorts Mill Goudy 400', Garamond, serif;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+
+#portfolio {
+    display: block;
+    padding: 0 0 1em 1em;
+    max-width: 80%;
+    float: left;
+}
+
+.thumbs {
+    background: #ffffff;
+    max-width: 280px;
+    max-height: 280px;
+    display: inline-block;
+    margin-right: 1em;
+    padding-bottom: 1em;
+}
+
+.thumbs img {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    color: #000000;
+    font-family: 'Abel', arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+
+p {
+    color: #222222;
+    font-family: 'Abel', arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+ul {
+    color: #222222;
+    font-family: 'Abel', arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-bottom: 60px;
+    list-style: square;
+}
+
+.subheaders {
+    width: 15%;
+    height: 5em;
+    float: left;
+    text-align: right;
+    margin-top: -1em;
+}
+
+
+#bio {
+    width: 70%;
+    display: inline-block;
+    padding: 0 0 1em 1em;
+}
+
+
+#left {
+    float: left;
+    width: 50%;
+    padding: 0 0 1em 1em;
+}
+
+#right {
+    float: right;   
+    width: 30%;
+}
+
+
+#right > h2 {
+    margin-top: 0px;
+
+}
+
+.button {
+    width: 150px;
+    height: 35px;
+    display: inline-block;
+    color: #eeeee5;
+    font-family: 'Abel', arial, sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 240px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+
+hr {
+    border-color: #e1e1e1;
+    border: .5px solid;
+}
+
+footer {
+    display: inline-block;
+    padding: 0 0 1em 1em;
+    width: 70%;
+
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+@media only screen and (max-width: 425px) {
+        .nav {
+            float: none;
+            text-align: center;
+            width: 100%;
+            padding: 1em 0 1em 0;
+        }
+
+        .nav a {
+            display: block;
+            border-bottom: 1px solid #efefef;
+            margin: .5em;
+        }
+
+        header{
+            width: 100%;
+            margin-top: -.5em;
+        }
+
+        h1 {
+            font-size: 1.8em;
+        }
+
+        .subheaders {
+            width: 20%;
+            height: 3em;
+            float: none;
+            margin-top: -3em;
+            margin-left: 1em;
+            text-align: left;
+        }
+
+        h2 {
+            font-size: 1.2em;
+        }
+
+        .leftrail {
+            float: left;
+            width: 0;
+        }
+
+        .thumbs {
+            width: 100% !important;
+            height: auto;
+        }
+
+        #right {
+            float: none;
+            margin-left: 1em;
+            font-size: 1em;
+            width: 92% !important;
+        }
+
+        #left {
+            width: 92% !important;
+            float: none;
+        }
+
+        #bio {
+            width: 92%;
+        }
+
+        footer {
+            width: 85%;
+        }
+    }
+
+
+
+@media screen and (max-width: 768px) {
+        .nav {
+            font-size: 1em;
+        }
+
+        #right {
+           width: 82%;
+        }
+
+         #left {
+            width: 70%;
+        }
+
+        header{
+            width: 80%;
+            margin-top: -.5em;
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+
+        h2 {
+            font-size: 1em;
+        }
+
+        footer {
+            width: 95%;
+        }
+
+        .thumbs {
+                width: 28%;
+                height: auto;
+        }
+ } 
+
+
